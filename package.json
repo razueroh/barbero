@@ -1,0 +1,25 @@
+{
+  "name": "barbero",
+  "version": "0.0.1",
+  "description": "Mustache template generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mustache",
+    "template",
+    "generator"
+  ],
+  "author": "razueroh",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^6.2.1",
+    "mustache": "^3.0.1",
+    "shelljs": "^0.8.3"
+  },
+  "bin": {
+    "barbero": "./index.js"
+  }
+}
